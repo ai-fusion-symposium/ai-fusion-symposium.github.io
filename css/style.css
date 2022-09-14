@@ -7,6 +7,21 @@ html, body {
     background-repeat: no-repeat;    background-size: 1200px; background-position-x: center;
 }
 
+p {
+    /*font-size: 16px;*/
+    font-size: large;
+}
+
+.sponsor > a> img {
+    width: 23%;
+}
+.sponsor > h1{
+    display: inline;
+    font-size: large;
+    padding-left: 30px;
+    font-family: "nanumgothic", sans-serif;
+    font-weight: bold;
+}
 
 /*.speaker, .speaker-pic{*/
 /*    text-align: right;*/
@@ -22,11 +37,14 @@ div.speaker p.speaker-abstract, div.speaker p.speaker-bio {
 
 div.speaker {
     margin: 2em 0;
+
 }
 
 div.speaker div.speaker-pic {
-    text-align: right;
+    /*text-align: right;*/
+    text-align: center;
 }
+
 
 div.paper {
     padding: 15px 0px 15px 25px;
@@ -61,13 +79,15 @@ div.paper div.btn-group {
 }
 
 .people-name {
-    margin: 10px 0 10px;
+    font-size: large;
+    margin: 10px 0 20px;
 }
 
-.people-name h6 {
+.people-name h5 {
     margin: 4px 0;
-    font-weight: 300;
-    font-size: 11px;
+    font-weight: bold;
+
+    /*font-size: 11px;*/
 }
 
 body a, .grid_1, plan_1, plan_1.one, plan_1.two, i.icon1, i.icon2, i.icon3, i.icon4, i.icon5, i.icon6 {
@@ -96,7 +116,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section {
+    text-align: center;
     color: #54215a;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.section::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    /*display: inline-block;*/
+    height: 1em;
+    width: 80px;
+    border-bottom: 5px solid;
+    margin-top: 20px;
+    transform: translate(-50%, 0%);
 }
 
 p {

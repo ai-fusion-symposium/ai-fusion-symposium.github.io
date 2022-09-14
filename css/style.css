@@ -11,14 +11,26 @@ p {
     /*font-size: 16px;*/
     font-size: large;
 }
-
+.sponsor-row{
+    /*width: 100%;*/
+    /*margin: 0 auto;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    text-align: center;
+    vertical-align: center;
+}
+.sponsor {
+    /*display: inline-block;*/
+    padding: 15px 0px 30px 0px;
+}
 .sponsor > a> img {
-    width: 23%;
+    width: 32%;
 }
 .sponsor > h1{
-    display: inline;
+    /*display: inline;*/
     font-size: large;
-    padding-left: 30px;
+    /*padding-left: 30px;*/
+    padding-top: 20px;
     font-family: "nanumgothic", sans-serif;
     font-weight: bold;
 }

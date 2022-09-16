@@ -93,12 +93,12 @@ div.paper div.btn-group {
 .people-name {
     font-size: large;
     margin: 10px 0 20px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .people-name h5 {
     margin: 4px 0;
-    font-weight: 700;
+    font-weight: 600;
 
     /*font-size: 11px;*/
 }
